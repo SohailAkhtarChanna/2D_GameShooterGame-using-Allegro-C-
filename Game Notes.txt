@@ -1,0 +1,9 @@
+4 things must be add before making allegro program
+1.  #include <allegro5/allegro.h>  //header file
+2. al_init();  			this will initialize for allegro functions
+3.  al_rest(5.0);      this will hold the display for how much time do you want to display screen
+4..al_destroy_display(display);  for closing display   
+
+
+more codes
+al_clear_to_color(al_map_rgb(0, 0, 0)); this is used to change the background color 
